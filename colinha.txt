@@ -1,0 +1,12 @@
+composer create-project 
+--prefer-dist laravel/laravel app_controle_tarefas --ignore-platform-req=ext-fileinfo
+
+composer require laravel/ui --ignore-platform-req=ext-fileinfo
+
+php artisan ui bootstrap --auth
+
+npm install
+
+npm run dev
+
+
